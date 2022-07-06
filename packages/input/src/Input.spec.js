@@ -1,16 +1,14 @@
-import React from "react";
+import React from 'react';
 
 console.log(React);
 
-import "jest-styled-components";
-import renderer from "react-test-renderer";
-import Input from "./Input";
+import 'jest-styled-components';
+import renderer from 'react-test-renderer';
+import Input from './Index';
 
-describe("Input", () => {
-    test("renders correctly", () => {
-        const tree = renderer
-            .create(<Input placeholder="user@gmail.com" />)
-            .toJSON();
+describe('Input', () => {
+    test('renders correctly', () => {
+        const tree = renderer.create(<Input placeholder="user@gmail.com" />).toJSON();
         expect(tree).toMatchSnapshot();
     });
 });

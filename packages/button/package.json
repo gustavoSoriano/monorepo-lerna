@@ -1,8 +1,8 @@
 {
     "name": "button",
     "version": "1.0.1",
-    "main": "lib/index.js",
-    "module": "src/index.js",
+    "main": "lib/Index.js",
+    "module": "src/Index.js",
     "dependencies": {
         "react": "latest",
         "react-dom": "latest",
